@@ -1,0 +1,181 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #254336;
+    color: white;
+  }
+  
+  button {
+    background-color:#45866a;
+    color: white;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  Link {
+    padding: 10px;
+  }
+  
+  .Dark header {
+    border-color: white;
+  }
+  
+  .Dark {
+    background-color: #111;
+  }
+  
+  .Dark * {
+    color: white;
+    background: #111;
+  }
+ /* Global styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3b4d3f;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header button {
+    background-color: #607d3b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  header button:hover {
+    background-color: #4a6130;
+  }
+  
+  header .menu {
+    display: flex;
+  }
+  
+  header .menu span {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  header .menu span:hover {
+    background-color: #4a6130;
+  }
+  
+  .Dark header {
+    border-color: white;
+  }
+  
+  .Dark {
+    background-color: #111;
+  }
+  
+  .Dark * {
+    color: white;
+    background: #111;
+  }
+  
+  /* Container for product cards */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /* Container styles for individual product cards */
+  .box {
+    width: 320px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styles */
+  .image {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Title styles */
+  .tit {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  /* Description styles */
+  .desc {
+    font-size: 1em;
+    color: #666;
+    padding: 10px 15px;
+    line-height: 1.6;
+  }
+  
+  /* Price styles */
+  .pri {
+    font-size: 1.4em;
+    color: #e91e63;
+    padding: 15px;
+    font-weight: bold;
+    border-top: 1px solid #ddd;
+    text-align: right;
+    background-color: #f9f9f9;
+  }
+  
+  /* Button styles inside product card */
+  .box button {
+    background-color: #607d3b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .box button:hover {
+    background-color: #4a6130;
+  }
+  
